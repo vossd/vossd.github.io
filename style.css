@@ -1,0 +1,17 @@
+a:link {
+text-decoration: underline;
+color: inherit;
+}
+
+a:hover {
+text-decoration: overline;
+color: inherit;
+}
+
+a:visited {
+text-decoration: none;
+color: inherit;
+}
+
+
+
