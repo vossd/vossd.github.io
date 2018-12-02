@@ -1,89 +1,34 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta charset="utf-8" />
     <title>Dan Voss Music</title>
-    <style>
-        body {
-            margin-top: 7%;
-            margin-left: 15%;
-            margin-right: 15%;
-            font-family: "Hoefler Text", Garamond, serif;
-            letter-spacing: 2px;
-            background-color: #F7F7F7;
-        }
-
-        .header {
-            font-family: "Avenir", Helvetica, sans-serif;
-            letter-spacing: 4px;
-        }
-
-        .section-header {
-            font-family: "Avenir", Helvetica, sans-serif;
-            letter-spacing: 1px;
-            color: gray;
-        }
-
-        .email {
-            font-size: small;
-            letter-spacing: 1px;
-        }
-
-        a:link {
-            text-decoration: none;
-            color: inherit;
-        }
-
-        a:visited {
-            color: inherit;
-        }
-
-        a:hover {
-            color: red;
-        }
-    </style>
+    <!-- Thanks to https://github.com/edwardtufte/tufte-css -->
+    <link rel="stylesheet" href="tufte.css" />
+    <link rel="stylesheet" href="latex.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
-
-    <div class="header">
+    <article>
         <h1>Dan Voss</h1>
-        <h3>Saxophone &amp;	Music Analysis</h3>
-    </div>
-    <br>
-    <div class="section-header">
-        <h6>Sound</h6>
-    </div>
-    <p>
-        <a href="https://danvossmusic.bandcamp.com/releases">6 Fragments</a>
-        <br>
-        <a href="https://www.youtube.com/watch?v=k5qwyaQyIi4">Blues</a>
-        <br>
-        <a href="https://soundcloud.com/marsyas-flayed">Marsyas Flayed</a>
-        <br>
-        <a href="http://1098.nightcoders.net/1491/public/">Chromatic mediant pattern generator</a>
-    </p>
-    <div class="section-header">
-        <h6>Text</h6>
-    </div>
-    <p>
-        <a href="analysis/venus.html">Venus</a>
-        <br>
-        <a href="http://uebergreifen.blogspot.com/2013/04/who-wrote-brasilia.html">Brasilia</a>
-        <br>
-        <a href="http://uebergreifen.blogspot.com/2014/06/transition.html">Transition</a>
-        <br>
-        <a href="http://uebergreifen.blogspot.com/2014/05/key-transformation-and-motive-relation.html">First Meditations &amp; Sun Ship</a>
-        <br>
-        <a href="http://uebergreifen.blogspot.com/2014/12/emergent-tonal-structure-in.html">Acknowledgement</a>
-        <br>
-        <a href="http://www.scribd.com/doc/90822438/Analyzing-Free-Improvised-Music-Four-Improvisations-by-Trombonist-Ben-Gerstein">Analyzing Free-Improvised Music: 4 Improvisations By Trombonist Ben Gerstein</a>
-    </p>
-    <br>
-    <div class="email"><a href="mailto:danvossmusic@gmail.com" target="_top">danvossmusic@gmail.com</a></div>
+        <p class="subtitle">Saxophone, analysis, etc.</p>
+        <section>
+            <p class="sans">Sound</p>
 
+            <p><a href="https://danvossmusic.bandcamp.com/releases" target="_blank">6 Fragments</a> is a lo-fi, mini-EP released in 2017.</p>
+        </section>
+        <section>
+            <p class="sans">Text</p>
+            <p>An analysis of John Coltrane's <a href="analysis/venus.html" target="_blank">Venus</a>.</p>
+        </section>
+        <section>
+            <p>
+                <a href="mailto:danvossmusic@gmail.com" target="_top">danvossmusic@gmail.com</a>
+            </p>
+        </section>
+    </article>
 </body>
 
 </html>
